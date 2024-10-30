@@ -1,0 +1,115 @@
+
+.app {
+    font-family: Arial, sans-serif;
+  }
+  
+  .location {
+    font-size: 1rem;
+    padding: 10px;
+  }
+  
+  .carousel {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .carousel-image {
+    width: 90%;
+    border-radius: 10px;
+  }
+  
+  .item-list {
+    padding: 10px;
+  }
+  
+  .items {
+    display: flex;
+    overflow-x: auto;
+  }
+  
+  .item {
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .item-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .special-offer {
+    padding: 10px;
+  }
+  
+  .offers {
+    display: flex;
+    overflow-x: auto;
+  }
+  
+  .offer {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .offer-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+  }
+  
+
+
+  .food-card {
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .food-image {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 12px;
+  }
+  
+  .food-details {
+    text-align: center;
+  }
+  
+  .food-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 4px 0;
+  }
+  
+  .food-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 0;
+    font-size: 1rem;
+  }
+  
+  .food-tags {
+    color: #888;
+    margin: 4px 0;
+  }
+  
+  .food-time {
+    font-weight: bold;
+    color: #333;
+  }
+  
